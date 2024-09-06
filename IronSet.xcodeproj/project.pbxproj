@@ -11,6 +11,8 @@
 		1F8C83F72C8B83C000706A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C83F62C8B83C000706A91 /* ContentView.swift */; };
 		1F8C83F92C8B83C200706A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8C83F82C8B83C200706A91 /* Assets.xcassets */; };
 		1F8C83FC2C8B83C200706A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8C83FB2C8B83C200706A91 /* Preview Assets.xcassets */; };
+		1F8C84052C8B890500706A91 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C84042C8B890500706A91 /* IntroScreen.swift */; };
+		1F8C84082C8B8C3500706A91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C84072C8B8C3500706A91 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1F8C83F62C8B83C000706A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F8C83F82C8B83C200706A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F8C83FB2C8B83C200706A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F8C84042C8B890500706A91 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		1F8C84072C8B8C3500706A91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,9 @@
 		1F8C83F32C8B83C000706A91 /* IronSet */ = {
 			isa = PBXGroup;
 			children = (
+				1F8C84062C8B8C2500706A91 /* Helpers */,
+				1F8C84032C8B88E700706A91 /* Model */,
+				1F8C84022C8B88DA00706A91 /* View */,
 				1F8C83F42C8B83C000706A91 /* IronSetApp.swift */,
 				1F8C83F62C8B83C000706A91 /* ContentView.swift */,
 				1F8C83F82C8B83C200706A91 /* Assets.xcassets */,
@@ -65,6 +72,29 @@
 				1F8C83FB2C8B83C200706A91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F8C84022C8B88DA00706A91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F8C84042C8B890500706A91 /* IntroScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F8C84032C8B88E700706A91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F8C84062C8B8C2500706A91 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1F8C84072C8B8C3500706A91 /* Constants.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8C83F72C8B83C000706A91 /* ContentView.swift in Sources */,
+				1F8C84052C8B890500706A91 /* IntroScreen.swift in Sources */,
 				1F8C83F52C8B83C000706A91 /* IronSetApp.swift in Sources */,
+				1F8C84082C8B8C3500706A91 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
