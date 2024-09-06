@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IntroScreen: View {
     /// Visibiilty Status
-    @AppStorage("isFirstTime") private var isFirstTime: Bool = false
+    @AppStorage("isFirstTime") private var isFirstTime: Bool = true
     var body: some View {
         VStack(spacing: 15) {
             Text("What's new in \nIron Set")
@@ -31,7 +31,9 @@ struct IntroScreen: View {
             
             Spacer(minLength: 10)
             
-            Button(action: {}, label: {
+            Button(action: {
+                isFirstTime = false
+            }, label: {
                 Text("Continue")
                     .fontWeight(.bold)
                     .foregroundStyle(.white)

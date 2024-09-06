@@ -13,6 +13,7 @@
 		1F8C83FC2C8B83C200706A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8C83FB2C8B83C200706A91 /* Preview Assets.xcassets */; };
 		1F8C84052C8B890500706A91 /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C84042C8B890500706A91 /* IntroScreen.swift */; };
 		1F8C84082C8B8C3500706A91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C84072C8B8C3500706A91 /* Constants.swift */; };
+		1F8C840A2C8B96D500706A91 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8C84092C8B96D500706A91 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1F8C83FB2C8B83C200706A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F8C84042C8B890500706A91 /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
 		1F8C84072C8B8C3500706A91 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F8C84092C8B96D500706A91 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		1F8C84032C8B88E700706A91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1F8C84092C8B96D500706A91 /* File.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8C840A2C8B96D500706A91 /* File.swift in Sources */,
 				1F8C83F72C8B83C000706A91 /* ContentView.swift in Sources */,
 				1F8C84052C8B890500706A91 /* IntroScreen.swift in Sources */,
 				1F8C83F52C8B83C000706A91 /* IronSetApp.swift in Sources */,
